@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f2f0b06dd3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="layout">
+        <header>
+            <nav class="nav-container">
+                   <div class="nav-left">
+                       <div class="nav-search">
+                         <button id="lente_ingradimento" type="button">
+                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg></i>
+                         </button>
+                        <button id="section" type="button">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+                        </button>
+                       </div>
+                      <div class="nav-title on_hover">
+                          <a href="https://www.shawlocal.com/" target="_blank" title="Shaw local">
+                              <img src="shaw-local.svg" alt="shaw local logo" id="shaw-big">
+                              <img src="shaw-local%20(mini)%20(1).jpg" alt="shaw local logo mini" id="shaw-mini">
+
+                          </a>
+                      </div>
+                  </div>
+                   <div class="nav-right">
+                       <div class="sign-btn">
+                           <p>Sign In</p>
+                           <i class="fa-solid fa-user"></i>
+                           <div class="window-hover">
+                               <ul>
+                                   <li class="on_hover"><a href="#">Sign In</a></li>
+                                   <li class="on_hover"><a href="#">Subscribe</a></li>
+                                   <li class="on_hover"><a href="#">Print Subscriber? Activate Now</a></li>
+                                   <li class="on_hover"><a href="#">Contact Us</a></li>
+                               </ul>
+                           </div>
+                       </div>
+                        <div class="sub-btn">
+                            <p>subscribe for 99$</p>
+                        </div>
+                    </div>
+            </nav>
+        </header>
+        <aside id="left_aside">
+            <div class="sidebar">
+                <div id="search-box">
+                <input type="text" id="search" name="search" placeholder="Search">
+                <button>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+                <ul class="search-menù">
+                <li>
+                    <a href="#">Woke</a>
+                </li>
+                <li>
+                    <a href="#">culpa keytar</a>
+                </li>
+                <li>
+                    <a href="#">skateboard</a>
+                </li>
+                <li>
+                    <a href="#">migas unicorn</a>
+                </li>
+                <li class="to_open" id="sus">
+                    <a href="#">Sus</a>
+                    <span id="turn1">
+                        <i class="fa-solid fa-angle-up"></i>
+                    </span>
+                </li>
+                </ul>
+                <ul class="closed" id="solarpunk">
+                    <li> <a href="#">Chartreuse</a></li>
+                    <li> <a href="#">Taiyaki artisan</a></li>
+                    <li><a href="#">asymmetrical vegan</a></li>
+                    <li> <a href="#">flexitarian kale</a></li>
+                    <li><a href="#">Solarpunk</a></li>
+                    <li><a href="#">Cronut messenger</a></li>
+                </ul>
+                <ul class="search-menù">
+                <li class="to_open" id="hammock">
+                    <a href="#">Hammock</a>
+                    <span id="turn2">
+                        <i class="fa-solid fa-angle-up"></i>
+                    </span>
+                </li>
+                </ul>
+                <ul class="closed" id="chartreuse">
+                    <li> <a href="#">Chartreuse</a></li>
+                    <li> <a href="#">Taiyaki artisan</a></li>
+                </ul>
+                <ul class="search-menù">
+                    <li>
+                        <a href="#">Chartreuse</a>
+                    </li>
+                    <li>
+                        <a href="#">Cronut messenger</a>
+                    </li>
+                    <li>
+                        <a href="#">Taiyaki artisan</a>
+                    </li>
+                    <li>
+                        <a href="#">asymmetrical vegan</a>
+                    </li>
+                    <li>
+                         <a href="#">Blue bottle</a>
+                    </li>
+                    <li>
+                        <a href="#">Gatekeep tousled</a>
+                    </li>
+                    <li>
+                        <a href="#">flexitarian kale</a>
+                    </li>
+                    <li>
+                        <a href="#">glossier</a>
+                    </li>
+                    <li>
+                        <a href="#">gorpcore aesthetic</a>
+                    </li>
+                    <li>
+                        <a href="#">Solarpunk</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="blur_div"></div>
+        </aside>
+        <section class="main">
+            <img src="https://via.placeholder.com/700x150//c4c4c4/ab1d1d?text=Banner+pubblicitario" alt="banner" class="banner">
+            <div class="breaker horizontal" id="first"></div>
+            <div class="section-title">
+                <div class="section-container grid-container">
+                    <div class="grid-item one">
+                        <p id="date">April 05, 2023</p> <!-- todo da modificare con il javascript-->
+                    </div>
+                    <div class="grid-item two">
+                        <ul class="flex-item">
+                            <li class="on_hover"><a href="#">news</a></li>
+                            <li class="on_hover"><a href="#">subscribe</a></li>
+                            <li class="on_hover"><a href="#">friday night drive</a></li>
+                            <li class="on_hover"><a href="#">prep sports</a></li>
+                            <li class="on_hover"><a href="#">eNewspaper</a></li>
+                            <li class="on_hover"><a href="#">events</a></li>
+                            <li class="on_hover"><a href="#">shaw local radio</a></li>
+                            <li class="on_hover"><a href="#">starved rock country</a></li>
+                        </ul>
+                    </div>
+                    <div class="grid-item three">
+                        <ul class="flex-item">
+                            <li class="on_hover"><i class="fa-solid fa-envelope"></i></li>
+                            <li class="on_hover"><i class="fa-brands fa-facebook"></i> </li>
+                            <li class="on_hover"><i class="fa-brands fa-twitter"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="layout-section">
+                <div class="separatore"></div>
+                <div class="row">
+                        <article class="main-news">
+                            <div id="main">
+                                <h2 class="on_hover">
+                                    Poutine marfa proident pariatur, dreamcatcher tilde brunch.
+                                </h2>
+                                <img src="https://via.placeholder.com/900x650/c4c4c4/ab1d1d?text=Main+news" alt="main news" class="on_hover">
+                                <p>I'm baby hexagon everyday carry vice, blue bottle chambray literally narwhal succulents raclette
+                                    ramps sriracha ethical man bun kickstarter copper mug.
+                                    Taxidermy 8-bit JOMO vape. Subway tile actually forage godard.</p>
+                                <ul>
+                                    <li id="time">April 05, 2023 at 8:32 pm CDT</li>
+                                </ul>
+                                </div>
+                            <div class="breaker horizontal"></div>
+                            <h3 id="top-stories">Top Stories</h3>
+                            <div class="main-container">
+
+                                <div id="first-col" class="items">
+                                    <div>
+                                        <p class="on_hover">I'm baby dIY polaroid hashtag whatever.
+                                            Skateboard asymmetrical ennui edison bulb yr cardigan
+                                        </p>
+                                        <span> banjo wayfarers.</span>
+                                        <img src="https://via.placeholder.com/440x290/cccccc/ab1d1d" alt="Skateboard asymmetrical" class="on_hover">
+                                        <div class="breaker horizontal"></div>
+                                    </div>
+
+                                    <div>
+                                        <p class="on_hover">Snackwave gatekeep chartreuse bitters hoodie.
+                                                Chia fashion axe slow-carb
+                                        </p>
+                                        <span>mumblecore PBR&B.</span>
+                                        <img src="https://via.placeholder.com/440x290/cccccc/ab1d1d" alt="Food truck palo santo" class="on_hover">
+                                        <div class="breaker horizontal"></div>
+                                    </div>
+                                </div>
+
+                                <div id="second-col" class="items">
+                                        <div>
+                                            <p class="on_hover">
+                                                Trust fund cardigan occupy meh,
+                                                Neutra pork belly narwhal,
+                                                iPhone blog roof party normcore kombucha YOLO.</p>
+                                            <span>iPhone blog roof party</span>
+                                            <img src="https://via.placeholder.com/440x290/cccccc/ab1d1d" alt="Craft beer forage" class="on_hover">
+                                            <div class="breaker horizontal"></div>
+                                        </div>
+
+                                        <div>
+                                            <p class="on_hover">
+                                                DSA activated charcoal fit,
+                                                before they sold out beard schlitz kitsch hella trust fund meggings roof party
+                                            </p>
+                                            <span>schlitz kitsch hella</span>
+                                            <img src="https://via.placeholder.com/440x290/cccccc/ab1d1d" alt="Snackwave gatekeep chartreuse" class="on_hover">
+                                            <div class="breaker horizontal"></div>
+                                        </div>
+                                </div>
+
+                                <div id="third-col" class="items">
+                                    <h3>Photo Galleries</h3>
+                                    <img src="https://via.placeholder.com/440x290/cccccc/ab1d1d" alt="Snackwave gatekeep chartreuse" class="on_hover">
+                                    <p class="on_hover">
+                                        Put a bird on it proident voluptate banjo.
+                                    </p>
+                                    <div class="breaker horizontal"></div>
+                                    <img src="https://via.placeholder.com/440x290/cccccc/ab1d1d" alt="Snackwave gatekeep chartreuse" class="on_hover">
+                                    <p class="on_hover">
+                                        Flexitarian occaecat typewriter, man bun est ethical polaroid gorpcore.
+                                    </p>
+                                    <div class="breaker horizontal"></div>
+                                    <img src="https://via.placeholder.com/440x290/cccccc/ab1d1d" alt="Snackwave gatekeep chartreuse" class="on_hover">
+                                    <p class="on_hover">
+                                        Messenger bag veniam bicycle rights man braid XOXO.
+                                    </p>
+                                    <div class="breaker horizontal"></div>
+                                </div>
+
+                                <div id="fourth-col" class="items">
+                                    <h3>High School Sports</h3>
+                                    <img src="https://via.placeholder.com/440x290/cccccc/ab1d1d" alt="Snackwave gatekeep chartreuse" class="on_hover">
+                                    <p class="on_hover">
+                                        Crucifix deep v chambray venmo labore tote bag neutral milk
+                                    </p>
+                                    <div class="breaker horizontal"></div>
+                                    <img src="https://via.placeholder.com/440x290/cccccc/ab1d1d" alt="Snackwave gatekeep chartreuse" class="on_hover">
+                                    <p class="on_hover">
+                                        Vice godard crucifix, mollit veniam culpa before
+                                    </p>
+                                    <div class="breaker horizontal"></div>
+                                    <img src="https://via.placeholder.com/440x290/cccccc/ab1d1d" alt="Snackwave gatekeep chartreuse" class="on_hover">
+                                    <p class="on_hover">
+                                        Squid art party activated charcoal, portland affogato fixie gatekeep in jawn beard
+                                    </p>
+                                    <div class="breaker horizontal"></div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <div class="breaker vertical"></div>
+
+                        <aside id="right_aside">
+                            <img src="https://via.placeholder.com/300x250/c4c4c4/ab1d1d" alt="pubblicità" class="banner">
+                            <div class="headlines">
+                                <h3>Latest Headlines</h3>
+                                <div id="1">
+                                    <img src="https://via.placeholder.com/150x100/c4c4c4/ab1d1d" alt="first headline" class="on_hover">
+                                    <p class="on_hover">
+                                        Next level vexillologist stumptown, them marxism vegan swag grailed.
+                                        <span>Shaw Local</span>
+                                    </p>
+                                </div>
+                                <div class="breaker horizontal"></div>
+                                <div id="2">
+                                    <img src="https://via.placeholder.com/150x100/c4c4c4/ab1d1d" alt="second headline" class="on_hover">
+                                    <p class="on_hover">
+                                        YOLO schlitz XOXO affogato selfies blue bottle.
+                                        <span>Shaw Local</span>
+                                    </p>
+                                </div>
+                                <div class="breaker horizontal"></div>
+                                <div id="3">
+                                    <img src="https://via.placeholder.com/150x100/c4c4c4/ab1d1d" alt="third headline" class="on_hover">
+                                    <p class="on_hover">
+                                        Hot chicken lumbersexual vaporware, fanny pack next level try-hard austin.
+                                        <span>Shaw Local</span>
+                                    </p>
+                                </div>
+                                <div class="breaker horizontal"></div>
+                                <div id="4">
+                                    <img src="https://via.placeholder.com/150x100/c4c4c4/ab1d1d" alt="fourth headline" class="on_hover">
+                                    <p class="on_hover">
+                                        Etsy authentic, waistcoat praxis blue bottle blog.
+                                        <span>Shaw Local</span>
+                                    </p>
+                                </div>
+                                <div class="breaker horizontal"></div>
+                                <div id="5">
+                                    <img src="https://via.placeholder.com/150x100/c4c4c4/ab1d1d" alt="last headline" class="on_hover">
+                                    <p class="on_hover">
+                                        Mustache fashion axe craft beer stumptown, meggings
+                                        <span>Shaw Local</span>
+                                    </p>
+                                </div>
+                                <div class="breaker horizontal"></div>
+                            </div>
+                            <a href="https://www.shawlocal.com/games/"><img id="game" src="https://via.placeholder.com/325x180/2b3a45/ffffff.png?text=LET'S+PLAY+ILLINOIS!"
+                                 alt="game of illinois"></a>
+                            <div class="headlines">
+                                    <h3>More Unifi News</h3>
+                                    <div>
+                                        <img src="https://via.placeholder.com/150x100/c4c4c4/ab1d1d" alt="first headline" class="on_hover">
+                                        <p class="on_hover">
+                                            You probably haven't heard of them marxism vegan swag grailed.
+                                            <span> Tofu YOLO XOXO</span>
+                                        </p>
+                                    </div>
+                                    <div class="breaker horizontal"></div>
+                                    <div>
+                                        <img src="https://via.placeholder.com/150x100/c4c4c4/ab1d1d" alt="second headline" class="on_hover">
+                                        <p class="on_hover">
+                                            Crucifix intelligentsia hella ascot, vaporware sint ad bodega boys
+                                            <span>Shaw Local</span>
+                                        </p>
+                                    </div>
+                                    <div class="breaker horizontal"></div>
+                                    <div>
+                                        <img src="https://via.placeholder.com/150x100/c4c4c4/ab1d1d" alt="third headline" class="on_hover">
+                                        <p class="on_hover">
+                                            Dreamcatcher cred bespoke gentrify. Readymade in typewriter
+                                            <span>Heirloom aliqua pop-up </span>
+                                        </p>
+                                    </div>
+                                    <div class="breaker horizontal"></div>
+                                    <div>
+                                        <img src="https://via.placeholder.com/150x100/c4c4c4/ab1d1d" alt="fourth headline" class="on_hover">
+                                        <p class="on_hover">
+                                            Health goth bitters XOXO keytar austin subway tile fit praxis
+                                            <span> Meggings narwhal</span>
+                                        </p>
+                                    </div>
+                                    <div class="breaker horizontal"></div>
+                                    <div>
+                                        <img src="https://via.placeholder.com/150x100/c4c4c4/ab1d1d" alt="last headline" class="on_hover">
+                                        <p class="on_hover">
+                                            Reprehenderit labore big mood duis.
+                                            Non fixie mustache, semiotics mlkshk kogi +1 hella ut
+                                            <span>JOMO</span>
+                                        </p>
+                                    </div>
+                                    <div class="breaker horizontal"></div>
+                                </div>
+                            <img src="https://via.placeholder.com/300x250/c4c4c4/ab1d1d" alt="pubblicità" class="banner">
+                            <div class="headlines">
+                                <h3>Opinion</h3>
+                                <div>
+                                    <img src="https://via.placeholder.com/150x100/c4c4c4/ab1d1d" alt="first headline" class="on_hover">
+                                    <p class="on_hover">
+                                        You probably haven't heard of them marxism vegan swag grailed.
+                                        <span> Tofu YOLO XOXO</span>
+                                    </p>
+                                </div>
+                                <div class="breaker horizontal"></div>
+                                <div>
+                                    <img src="https://via.placeholder.com/150x100/c4c4c4/ab1d1d" alt="second headline" class="on_hover">
+                                    <p class="on_hover">
+                                        Crucifix intelligentsia hella ascot, vaporware sint ad bodega boys
+                                        <span>Shaw Local</span>
+                                    </p>
+                                </div>
+                                <div class="breaker horizontal"></div>
+                                <div>
+                                    <img src="https://via.placeholder.com/150x100/c4c4c4/ab1d1d" alt="third headline" class="on_hover">
+                                    <p class="on_hover">
+                                        Dreamcatcher cred bespoke gentrify. Readymade in typewriter
+                                        <span>Heirloom aliqua pop-up </span>
+                                    </p>
+                                </div>
+                                <div class="breaker horizontal"></div>
+                                <div>
+                                    <img src="https://via.placeholder.com/150x100/c4c4c4/ab1d1d" alt="fourth headline" class="on_hover">
+                                    <p class="on_hover">
+                                        Health goth bitters XOXO keytar austin subway tile fit praxis
+                                        <span> Meggings narwhal</span>
+                                    </p>
+                                </div>
+                                <div class="breaker horizontal"></div>
+                                <div>
+                                    <img src="https://via.placeholder.com/150x100/c4c4c4/ab1d1d" alt="last headline" class="on_hover">
+                                    <p class="on_hover">
+                                        Reprehenderit labore big mood duis.
+                                        Non fixie mustache, semiotics mlkshk kogi +1 hella ut
+                                        <span>JOMO</span>
+                                    </p>
+                                </div>
+                                <div class="breaker horizontal"></div>
+                            </div>
+                            <img src="https://via.placeholder.com/300x250/c4c4c4/ab1d1d" alt="pubblicità" class="banner">
+
+                        </aside>
+                </div>
+                <div class="separatore"></div>
+                <img src="https://via.placeholder.com/800x200//c4c4c4/ab1d1d?text=Banner+pubblicitario" alt="banner" class="banner">
+                <div class="row2">
+                    <div class="col">
+                        <h2 class="title">Dixon News</h2>
+                        <img src="https://via.placeholder.com/450x270/cccccc/ab1d1d" alt="dixon news photo" class="img on_hover">
+                        <div class="text-container">
+                            <h4>News - Sauk Valley</h4>
+                            <h2>Dixon YMCA to build child-care center in Gateway footprint</h2>
+                            <span>Sauk Valley ● April 06, 2023 at 3:15pm CDT</span>
+                            <div class="breaker horizontal"></div>
+                            <div class="item">
+                                <p class="on_hover">
+                                    Photos: Dixon YMCA announces new child care facility
+                                    <span> Shaw Local</span>
+                                </p>
+                                <img src="https://via.placeholder.com/105x70/cccccc/ab1d1d" alt="dixon news photo" class="on_hover">
+                            </div>
+                            <div class="breaker horizontal"></div>
+                            <div class="item">
+                                <p class="on_hover">
+                                    In slow-carb bruh, VHS four dollar toast pork belly waistcoat
+                                    <span>Sauk Valley</span>
+                                </p>
+                                <img src="https://via.placeholder.com/105x70/cccccc/ab1d1d" alt="sauk valley photo" class="on_hover">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <h2 class="title">Baby succulents tumblr</h2>
+                        <img src="https://via.placeholder.com/450x270/cccccc/ab1d1d" alt="dixon news photo" class="img on_hover">
+                        <div class="text-container">
+                            <h4>Features | Friday Night Drive</h4>
+                            <h2>Quinoa PBR&B craft beer tumblr plaid polaroid, beard chartreuse hexagon big</h2>
+                            <span>Sauk Valley ● April 06, 2023 at 3:15pm CDT</span>
+                            <div class="breaker horizontal"></div>
+                            <div class="item">
+                                <p class="on_hover">
+                                    Gorpcore locavore offal, etsy street art godard lumbersexual crucifix aesthetic plaid.
+                                    <span> Shaw Local</span>
+                                </p>
+                                <img src="https://via.placeholder.com/105x70/cccccc/ab1d1d" alt="dixon news photo" class="on_hover">
+                            </div>
+                            <div class="breaker horizontal"></div>
+                            <div class="item">
+                                <p class="on_hover">
+                                    VHS four dollar toast pork belly waistcoat
+                                    <span>Sauk Valley</span>
+                                </p>
+                                <img src="https://via.placeholder.com/105x70/cccccc/ab1d1d" alt="sauk valley photo" class="on_hover">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <h2 class="title">Twee small batch</h2>
+                        <img src="https://via.placeholder.com/450x270/cccccc/ab1d1d" alt="dixon news photo" class="img on_hover">
+                        <div class="text-container">
+                            <h4>News</h4>
+                            <h2>Ethical kale chips Brooklyn VHS venmo sus. Jean shorts poke master cleanse fingerstache</h2>
+                            <span>Sauk Valley ● April 06, 2023 at 3:15pm CDT</span>
+                            <div class="breaker horizontal"></div>
+                            <div class="item">
+                                <p class="on_hover">
+                                    Cornhole shaman same polaroid kickstarter. Readymade ugh forage,
+                                    <span>Pour-over sriracha</span>
+                                </p>
+                                <img src="https://via.placeholder.com/105x70/cccccc/ab1d1d" alt="dixon news photo" class="on_hover">
+                            </div>
+                            <div class="breaker horizontal"></div>
+                            <div class="item">
+                                <p class="on_hover">
+                                    Flannel jawn tofu, fingerstache PBR&B shaman readymade.
+                                    <span>Deep v selfies everyday</span>
+                                </p>
+                                <img src="https://via.placeholder.com/105x70/cccccc/ab1d1d" alt="sauk valley photo" class="on_hover">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="breaker horizontal"></div>
+            </div>
+        </section>
+        <footer class="layout-section">
+            <section id="footer-links">
+                <h5 id="primo">pubblications</h5>
+                <h5 id="secondo">company info</h5>
+                <div>
+                    <ul>
+                        <li>Enamel pin</li>
+                        <li>tattooed vice </li>
+                        <li>hella af blog</li>
+                        <li>narwhal try-hard </li>
+                        <li>skateboard gluten-free</li>
+                        <li>austin farm</li>
+                        <li>Selfies cliche </li>
+                        <li>gatekeep fam copper </li>
+                        <li>woke celiac gochujang</li>
+                        <li>tumeric</li>
+                        <li>Gluten-free </li>
+                        <li>Same synth</li>
+                        <li>pok pok keffiyeh.</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li>Poke cliche </li>
+                        <li>offal tumblr</li>
+                        <li>chicharrones snackwave stumptown</li>
+                        <li>la croix street</li>
+                        <li>art literally cornhole</li>
+                        <li>Irony PBR&B</li>
+                        <li>sustainable 8-bit authentic</li>
+                        <li>vegan pickled la croix</li>
+                        <li>Taiyaki dreamcatcher </li>
+                        <li>cornhole adaptogen direct</li>
+                        <li>trade pop-up synth</li>
+                        <li>poke retro kombucha</li>
+                        <li>Irony PBR&B</li>
+                        <li>sustainable 8-bit authentic</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li>Raclette kale</li>
+                        <li>3 wolf moon</li>
+                        <li>Cold-pressed succulents</li>
+                        <li>wolf palo santo</li>
+                        <li>Everyday</li>
+                        <li>snackwave</li>
+                        <li>drinking vinegar </li>
+                        <li>Freegan palo</li>
+                        <li>leggings venmo</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li>Snackwave tumeric</li>
+                        <li>vegan</li>
+                        <li>pabst succulents </li>
+                        <li>drinking vinegar</li>
+                        <li>Mumblecore sustainable</li>
+                        <li>church-key </li>
+                    </ul>
+                </div>
+            </section>
+            <section id="footer-social">
+                <div class="icons-container">
+                    <div id="icons" >
+                        <a title="Facebook page" href="https://www.facebook.com/" target="_blank" class="on_hover">
+                            <i class="fa-brands fa-square-facebook"></i>
+                        </a>
+                        <a title="Twitter feed" href="https://twitter.com/" target="_blank" class="on_hover">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a title="RSS feed" target="_blank"  class="on_hover" href="https://www.google.com/search?q=ciao&oq=ciao&aqs=chrome..69i57j0i131i433i650j46i131i433i512j0i131i433i512l3j46i433i512j46i131i433i512j46i175i199i512j0i512.799j0j4&sourceid=chrome&ie=UTF-8">
+                            <i class="fa-solid fa-square-rss"></i>
+                        </a>
+                    </div>
+                </div>
+                <div id="copyright">
+                    <p>Copyright © 2023 The Unifi programming exercises</p>
+                </div>
+            </section>
+            <div class="separatore"></div>
+            <img id="footer-img" src="https://www.shawlocal.com/pf/resources/images/sites/shaw-media/shaw-media.svg?d=76" alt="shaw local footer img">
+        </footer>
+    </div>
+
+    <!--link al file javascript-->
+    <script src="app.js"></script>
+</body>
+</html>
